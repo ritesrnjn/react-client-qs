@@ -1,0 +1,13 @@
+/coverage
+/dist
+/client/index.html
+/.git
+/.next
+/coverage
+/flow
+/flow-typed
+/tmp
+node_modules
+/serve
+/pages
+/docs

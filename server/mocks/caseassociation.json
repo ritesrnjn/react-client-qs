@@ -1,0 +1,3349 @@
+{
+  "meta": [
+    {
+      "name": "checked",
+      "header": "",
+      "hidden": false,
+      "type": "checkbox"
+    },
+    {
+      "name": "Case/AppNo",
+      "header": "Case/AppNo",
+      "hidden": false,
+      "type": "text"
+    },
+    {
+      "name": "CaseStatus/Mode",
+      "header": "CaseStatus/Mode",
+      "hidden": false,
+      "type": "text"
+    },
+    {
+      "name": "HouseholdStatus",
+      "header": "HouseholdStatus",
+      "hidden": false,
+      "type": "text"
+    },
+    {
+      "name": "HOH",
+      "header": "HOH",
+      "hidden": false,
+      "type": "text"
+    },
+    {
+      "name": "Programs",
+      "header": "Programs",
+      "hidden": false,
+      "type": "text"
+    },
+    {
+      "name": "Office",
+      "header": "Office",
+      "hidden": false,
+      "type": "text"
+    },
+    {
+      "name": "Members",
+      "header": "Members",
+      "hidden": false,
+      "type": "text"
+       },
+ {
+      "name": "drop",
+      "header": "",
+      "hidden": false,
+      "type": "text"
+    }
+   
+   
+  ],
+  "data": [
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":1,
+      "inDrop":[
+      
+          {
+            "type": "chip",
+             "hoh": true,
+            "label": "All household members in this case",
+            "name": "householdmembers",
+              "options": [
+                {
+                  "label": "Leona Ramsey Relationship|self",
+                  "value": "Leona Ramsey Relationship|self",
+                  "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+                },
+                {
+                  "label": "Owen Ramsey Wife",
+                  "value": "Owen Ramsey Wife"
+                },
+                {
+                  "label": "Nathen Ramsey Son",
+                  "value": "Nathen Ramsey Son"
+                },
+                {
+                  "label": "Mollie Ramsey Daughter",
+                  "value": "Mollie Ramsey Daughter"
+                }
+              ],
+            "validate": [],
+            "grid": {
+              "row": true,
+              "col": 12
+            },
+            "grouped": false
+          },
+           
+          {
+              "type": "hr",
+              "grid": {
+                "row": true,
+              "col": 12
+            }
+          },
+          
+          {
+            "name": "firstname",
+            "type": "readonlyField",
+            "label": "Physical Address",
+            "value": "70 Marvin Terrace",
+            "stringOnly":false,
+            "validate": [],
+            "grid": {
+              "row": true,
+              "col": 2
+            }
+          },
+          {
+            "name": "firstname",
+            "type": "readonlyField",
+            "label": "Apt/Lot#",
+            "value": "B",
+            "stringOnly":false,
+            "validate": [],
+            "grid": {
+              "row": false,
+              "col": 1
+            }
+          },
+          {
+            "name": "firstname",
+            "type": "readonlyField",
+            "label": "State",
+            "value": "MI",
+            "stringOnly":false,
+            "validate": [],
+            "grid": {
+              "row": false,
+              "col": 1
+            }
+          },
+          {
+            "name": "firstname",
+            "type": "readonlyField",
+            "label": "City",
+            "value": "Lansing",
+            "stringOnly":false,
+            "validate": [],
+            "grid": {
+              "row": false,
+              "col": 1
+            }
+          },
+          {
+            "name": "firstname",
+            "type": "readonlyField",
+            "label": "County",
+            "value": "Ingham",
+            "stringOnly":false,
+            "validate": [],
+            "grid": {
+              "row": false,
+              "col": 1
+            }
+          },
+          {
+            "name": "firstname",
+            "type": "readonlyField",
+            "label": "Zipcode",
+            "value": "43502",
+            "stringOnly":false,
+            "validate": [],
+            "grid": {
+              "row": false,
+              "col": 1
+            }
+          }
+        ]    
+      
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":2,
+      "inDrop":[
+      {
+        "type": "chip",
+        "label": "All household members in this case",
+        "name": "householdmembers",
+        "options": [
+          {
+            "label": "Leona Ramsey Relationship|self",
+            "value": "Leona Ramsey Relationship|self",
+            "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+          },
+          {
+            "label": "Owen Ramsey Wife",
+            "value": "Owen Ramsey Wife"
+          },
+          {
+            "label": "Nathen Ramsey Son",
+            "value": "Nathen Ramsey Son"
+          },
+          {
+            "label": "Mollie Ramsey Daughter",
+            "value": "Mollie Ramsey Daughter"
+          }
+        ],
+        "validate": [],
+        "grid": {
+          "row": true,
+          "col": 12
+        },
+        "grouped": false
+      },
+      {
+        "type": "hr",
+        "grid": {
+          "row": true,
+        "col": 12
+      }
+    },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "Physical Address",
+        "value": "70 Marvin Terrace",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": true,
+          "col": 2
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "Apt/Lot#",
+        "value": "B",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "State",
+        "value": "MI",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "City",
+        "value": "Lansing",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "County",
+        "value": "Ingham",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "Zipcode",
+        "value": "43502",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      }
+    ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":3,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+             
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "type": "hr",
+          "grid": {
+            "row": true,
+          "col": 12
+        }
+      },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+      
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":4,
+      "inDrop": [
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+                    "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "type": "hr",
+          "grid": {
+            "row": true,
+          "col": 12
+        }
+      },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":5,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "type": "hr",
+          "grid": {
+            "row": true,
+          "col": 12
+        }
+      },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+      
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":6,
+      "inDrop":[{
+        "type": "chip",
+        "label": "All household members in this case",
+        "name": "householdmembers",
+        "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH",
+        "options": [
+          {
+            "label": "Leona Ramsey Relationship|self",
+            "value": "Leona Ramsey Relationship|self",
+            "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+          },
+          {
+            "label": "Owen Ramsey Wife",
+            "value": "Owen Ramsey Wife"
+          },
+          {
+            "label": "Nathen Ramsey Son",
+            "value": "Nathen Ramsey Son"
+          },
+          {
+            "label": "Mollie Ramsey Daughter",
+            "value": "Mollie Ramsey Daughter"
+          }
+        ],
+        "validate": [],
+        "grid": {
+          "row": true,
+          "col": 12
+        },
+        "grouped": false
+      },
+      {
+        "type": "hr",
+        "grid": {
+          "row": true,
+        "col": 12
+      }
+    },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "Physical Address",
+        "value": "70 Marvin Terrace",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": true,
+          "col": 2
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "Apt/Lot#",
+        "value": "B",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "State",
+        "value": "MI",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "City",
+        "value": "Lansing",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "County",
+        "value": "Ingham",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "Zipcode",
+        "value": "43502",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      }
+    ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":7,
+      "inDrop":[{
+        "type": "chip",
+        "label": "All household members in this case",
+        "name": "householdmembers",
+        "options": [
+          {
+            "label": "Leona Ramsey Relationship|self",
+            "value": "Leona Ramsey Relationship|self",
+            "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+          },
+          {
+            "label": "Owen Ramsey Wife",
+            "value": "Owen Ramsey Wife"
+          },
+          {
+            "label": "Nathen Ramsey Son",
+            "value": "Nathen Ramsey Son"
+          },
+          {
+            "label": "Mollie Ramsey Daughter",
+            "value": "Mollie Ramsey Daughter"
+          }
+        ],
+        "validate": [],
+        "grid": {
+          "row": true,
+          "col": 12
+        },
+        "grouped": false
+      },
+      {
+        "type": "hr",
+        "grid": {
+          "row": true,
+        "col": 12
+      }
+    },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "Physical Address",
+        "value": "70 Marvin Terrace",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": true,
+          "col": 2
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "Apt/Lot#",
+        "value": "B",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "State",
+        "value": "MI",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "City",
+        "value": "Lansing",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "County",
+        "value": "Ingham",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      },
+      {
+        "name": "firstname",
+        "type": "readonlyField",
+        "label": "Zipcode",
+        "value": "43502",
+        "stringOnly":false,
+        "validate": [],
+        "grid": {
+          "row": false,
+          "col": 1
+        }
+      }
+    ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":8,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "type": "hr",
+          "grid": {
+            "row": true,
+          "col": 12
+        }
+      },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":9,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "type": "hr",
+          "grid": {
+            "row": true,
+          "col": 12
+        }
+      },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":10,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "type": "hr",
+          "grid": {
+            "row": true,
+          "col": 12
+        }
+      },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":11,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "type": "hr",
+          "grid": {
+            "row": true,
+          "col": 12
+        }
+      },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":12,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+         
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":13,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":14,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":15,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":16,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":17,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":18,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":19,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+          
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "id":20,
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      
+      ]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong" : "Head of household",
+             "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+      
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[
+        {
+          "type": "chip",
+          "label": "All household members in this case",
+          "name": "householdmembers",
+          "options": [
+            {
+              "label": "Leona Ramsey Relationship|self",
+              "value": "Leona Ramsey Relationship|self",
+              "headerTagLong": "Head of household",
+              "headerTagShort": "HOH"
+            },
+            {
+              "label": "Owen Ramsey Wife",
+              "value": "Owen Ramsey Wife"
+            },
+            {
+              "label": "Nathen Ramsey Son",
+              "value": "Nathen Ramsey Son"
+            },
+            {
+              "label": "Mollie Ramsey Daughter",
+              "value": "Mollie Ramsey Daughter"
+            }
+          ],
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 12
+          },
+          "grouped": false
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Physical Address",
+          "value": "70 Marvin Terrace",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": true,
+            "col": 2
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Apt/Lot#",
+          "value": "B",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "State",
+          "value": "MI",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "City",
+          "value": "Lansing",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "County",
+          "value": "Ingham",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        },
+        {
+          "name": "firstname",
+          "type": "readonlyField",
+          "label": "Zipcode",
+          "value": "43502",
+          "stringOnly":false,
+          "validate": [],
+          "grid": {
+            "row": false,
+            "col": 1
+          }
+        }
+      ]
+      
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[]
+    },
+    {
+      "checked": false,
+      "CaseAppNo": 102120863,
+      "CaseStatus": "Closed",
+      "HouseHoldStatus": "In",
+      "HOH": "Y",
+      "Programs": "FAP",
+      "Office": "Alcona Country",
+      "Members":"2 more",
+      "inDrop":[]
+    }
+    
+  ]
+}

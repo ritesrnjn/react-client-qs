@@ -1,0 +1,21 @@
+
+[
+    {
+        "feedStatus":"default",
+        "feedTime":"07:45AM",
+        "feedDescription":"Total number of application registered",
+        "feedLink":{
+        "title":"30 application",
+        "redirect":"http://google.com"
+        }
+    },
+    {
+        "feedStatus":"priority",
+        "feedTime":"10:05PM",
+        "feedDescription":"Review Income details",
+        "feedLink":{
+        "title":"10 application",
+        "redirect":"http://google.com"
+        }
+    }
+]
