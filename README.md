@@ -24,8 +24,8 @@
 After confirming that development environment meets the above [requirements](#requirements), clone the project:
 
 ```bash
-$ git clone https://github.com/ritesrnjn/react-quick-start.git
-$ cd react-quick-start
+$ git clone https://github.com/ritesrnjn/react-qs.git
+$ cd react-qs
 ```
 
 When that's done, install the project dependencies. It is recommended to use [Yarn](https://yarnpkg.com/) for deterministic dependency management, but `npm install` will suffice.
