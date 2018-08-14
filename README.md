@@ -1,4 +1,4 @@
-# React Quick start
+# React Quickstart
 
 ## Table of Contents
 1. [Requirements](#requirements)
@@ -15,7 +15,7 @@
 ## Requirements
 
 * [git](https://git-scm.com/)
-* [node.js](https://nodejs.org/)  `^5.0.0`
+* [node.js](https://nodejs.org/)  `^8.0.0`
 * [yarn](https://yarnpkg.com/en/) `^0.23.0` or [npm](https://www.npmjs.com/) `^5.0.0`
 
 
