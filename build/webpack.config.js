@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const project = require('../project.config');
 
 const inProject = path.resolve.bind(path, project.basePath);
@@ -29,6 +30,7 @@ const config = {
     modules: [inProject(project.srcDir), 'node_modules'],
     extensions: ['*', '.js', '.jsx', '.json'],
   },
+  mode: __DEV__ ? 'development' : 'production',
   externals: project.externals,
   module: {
     rules: [],
@@ -67,7 +69,7 @@ config.module.rules.push({
 // Styles
 // ------------------------------------
 const extractStyles = new ExtractTextPlugin({
-  filename: 'stylesheets/[name].[contenthash].css',
+  filename: 'stylesheets/[name].[hash].css',
   allChunks: true,
   disable: __DEV__,
 });
@@ -179,7 +181,14 @@ if (!__TEST__) {
     config.entry.vendor = project.vendors;
   }
 
-  config.plugins.push(new webpack.optimize.CommonsChunkPlugin({ names: bundles }));
+  config.optimization = {
+    splitChunks: {
+      cacheGroups: {
+        commons: { test: /[\\/]node_modules[\\/]/, name: 'bundles', chunks: 'all' },
+      },
+    },
+  };
+
 }
 
 // Production Optimizations
@@ -207,6 +216,25 @@ if (__PROD__) {
       },
     }),
   );
+
+  config.optimization.minimizer = [
+    new UglifyJsPlugin({
+      sourceMap: !!config.devtool,
+      comments: false,
+      compress: {
+        warnings: false,
+        screw_ie8: true,
+        conditionals: true,
+        unused: true,
+        comparisons: true,
+        sequences: true,
+        dead_code: true,
+        evaluate: true,
+        if_return: true,
+        join_vars: true,
+      },
+    }),
+  ]
 }
 
 module.exports = config;
