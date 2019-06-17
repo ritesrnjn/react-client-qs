@@ -188,7 +188,6 @@ if (!__TEST__) {
       },
     },
   };
-
 }
 
 // Production Optimizations
@@ -199,42 +198,14 @@ if (__PROD__) {
       minimize: true,
       debug: false,
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      sourceMap: !!config.devtool,
-      comments: false,
-      compress: {
-        warnings: false,
-        screw_ie8: true,
-        conditionals: true,
-        unused: true,
-        comparisons: true,
-        sequences: true,
-        dead_code: true,
-        evaluate: true,
-        if_return: true,
-        join_vars: true,
-      },
-    }),
   );
-
   config.optimization.minimizer = [
     new UglifyJsPlugin({
       sourceMap: !!config.devtool,
-      comments: false,
-      compress: {
-        warnings: false,
-        screw_ie8: true,
-        conditionals: true,
-        unused: true,
-        comparisons: true,
-        sequences: true,
-        dead_code: true,
-        evaluate: true,
-        if_return: true,
-        join_vars: true,
-      },
+      cache: true,
+      parallel: true,
     }),
-  ]
+  ];
 }
 
 module.exports = config;
